@@ -12,7 +12,6 @@ function Tours() {
       .then((res) => {
         const { data } = res.data.data;
         setTours(data);
-        console.log(data);
       })
       .catch((err) => {
         console.log(err);
